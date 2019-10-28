@@ -1,0 +1,9 @@
+  <ul class="list-unstyled resume-education-list">
+    {{#each education}}
+      <li class="mb-3">
+        <div class="resume-degree font-weight-bold">{{title}}</div>
+        <div class="resume-degree-org text-muted">{{place}}</div>
+        <div class="resume-degree-time text-muted">{{from}} - {{to}}</div>
+      </li>
+    {{/each}}
+  </ul>

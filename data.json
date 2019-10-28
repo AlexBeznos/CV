@@ -1,0 +1,103 @@
+{
+  "name": "Alex Beznos",
+  "title": "Senior Ruby developer",
+  "about": "My name is Alex Beznos and I am Ruby developer. I am passionate about technologies and love to build stuff that matters. I like to build complex applications which makes people’s life easier. But at the same time to keep application as simple as possible.",
+  "contacts": {
+    "phone": "+380937003321",
+    "email": "beznosa@yahoo.com",
+    "github": "github.com/AlexBeznos",
+    "linkedin": "linkedin.com/in/alex-beznos-255011a8/"
+  },
+  "education": [
+    {
+      "title": "Master of Computer Science",
+      "place": "National Aviation University",
+      "from": "2017",
+      "to": "2019"
+    },
+    {
+      "title": "Bachelor of Computer Science",
+      "place": "National Aviation University",
+      "from": "2013",
+      "to": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical",
+      "all": [
+        "Ruby",
+        "Ruby On Rails",
+        "Hanami",
+        "Dry Web",
+        "PostgreSQL",
+        "MySQL",
+        "Firebase Firestore/Realtime database",
+        "JS",
+        "React",
+        "Go lang"
+      ]
+    },
+    {
+      "name": "Professional",
+      "all": [
+        "Effective communication",
+        "Task estimation",
+        "Time management",
+        "Strong problem solver"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "OrangeCard",
+      "link": "https://orangecard.club/",
+      "link_name": "Landing page",
+      "description": "Main idea of the application were to provide an interface for users to make a photos with geolocation of parking offences and send them to local police station. I participated in the project as technical lead and were responsible for all development. Right now project on the stage of legalization."
+    }
+  ],
+  "jobs": [
+    {
+      "company": "Maxiemind",
+      "role": "Senior Ruby developer",
+      "from": "Nov 2018",
+      "till": "Present",
+      "description": "Platform for ads management on Facebook and Google ads platforms. Application had to simplify process of creation ads on both platforms and optimize expenses."
+    },
+    {
+      "company": "SD Solutions",
+      "role": "Team Lead",
+      "from": "Oct 2017",
+      "till": "Nov 2018",
+      "description": "CMS, CRM system which had to predict popular topics and propose them to writers which had to create articles for different content platforms."
+    },
+    {
+      "company": "Elixirator",
+      "role": "Ruby developer",
+      "from": "Feb 2017",
+      "till": "Oct 2017",
+      "description": "CRM system for creation, signing and preparing contracts between gas / electicity companies and costumers."
+    },
+    {
+      "company": "GoFriend",
+      "role": "Ruby developer",
+      "from": "Feb 2017",
+      "till": "Oct 2017",
+      "description": "The application had to be used on public WiFi hotspots and provide an interface for authentication via social networks, via polls submision, via paswords, etc. Also, we had to provide analytics of authenticated users depends on required timerange."
+    },
+    {
+      "company": "Global Logic",
+      "role": "Ruby developer",
+      "from": "Jun 2015",
+      "till": "Feb 2016",
+      "description": "Had to deliver application which provides an user interface for building of all sorts of interactive web advertisements. As finished result of advertisement creation user had to get four lines ofJS code which could be placed in any part of HTML document and had to expand the advertisement for the customer and track any customer’s activity."
+    },
+    {
+      "company": "Slend Inc.",
+      "role": "Ruby developer",
+      "from": "Oct 2014",
+      "till": "Apr 2015",
+      "description": "Responsible for delivering of REST API for the iOS application which provides an interface for sharing bils between users inside the application."
+    }
+  ]
+}
