@@ -1,0 +1,78 @@
+{
+  "name": "Alex Beznos",
+  "title": "Alex Beznos - Senior Ruby developer",
+  "about": "My name is Alex Beznos and I am Ruby developer. I am passionate about technologies and love to build stuff that matters. I like to build complex applications which makes people’s life easier. But at the same time to keep application as simple as possible.",
+  "contacts": {
+    "phone": "+380937003321",
+    "email": "beznosa@yahoo.com",
+    "github": "github.com/AlexBeznos",
+    "linkedin": "linkedin.com/in/alex-beznos-255011a8"
+  },
+  "education": [
+    {
+      "title": "Master of Computer Science",
+      "place": "National Aviation University",
+      "from": "2017",
+      "to": "2019"
+    },
+    {
+      "title": "Bachelor of Computer Science",
+      "place": "National Aviation University",
+      "from": "2013",
+      "to": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical",
+      "all": [
+        "Ruby",
+        "JS",
+        "Ruby On Rails",
+        "Hanami",
+        "PostgreSQL",
+        "MySQL",
+        "React",
+        "Golang"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "OrangeCard",
+      "link": "https://orangecard.club/",
+      "link_name": "Landing page",
+      "description": "Main idea of the application were to provide an interface for users to make a photos with geolocation of parking offences and send them to local police station. I participated in the project as technical lead and were responsible for all development. Right now project on the stage of legalization."
+    }
+  ],
+  "jobs": [
+    {
+      "company": "<a href=\"https://humanagency.org/\" target=\"_blank\">HumanAgency</a>",
+      "role": "Senior Ruby developer",
+      "from": "Nov 2018",
+      "till": "Present",
+      "description": "Platform for ads management on Facebook and Google ads platforms. Application had to simplify process of creation ads on both platforms and optimize expenses."
+    },
+    {
+      "company": "<a href=\"https://www.roundforest.com/\" target=\"_blank\">Roundforest</a> feat <a href=\"http://sdsolutions.tech/\" target=\"_blank\">SD Solutions</a>",
+      "role": "Team Lead",
+      "from": "Sep 2017",
+      "till": "Nov 2018",
+      "description": "I participated in development of two apps. First one was CMS, CRM system which had to predict popular topics and propose them to writers which had to create articles for different content platforms. But after some time priorities were changed and whole team were moved to creation of the app which had to collect data from different hotel proposal providers, rank it and show it to users depends on their needs. I was responsible for app development including team management, development process and meeting deadlines."
+    },
+    {
+      "company": "Enbro NV feat <a href=\"https://elixirator.com/\" target=\"_blank\">Elixirator</a>",
+      "role": "Ruby developer",
+      "from": "Sep 2016",
+      "till": "Aug 2017",
+      "description": "I participated in development of CRM system for creation, signing and preparing contracts between gas / electicity companies and end costumers. Main app were developed with Hanami on backend and React on frontend. As a part of development we had to move logic from legacy app(written on Ruby on Rails) to new Hanami app."
+    },
+    {
+      "company": "<a href=\"http://www.globallogic.com/ua\" target=\"_blank\">Global Logic</a>",
+      "role": "Ruby developer",
+      "from": "Jan 2015",
+      "till": "Sep 2016",
+      "description": "As a part of the team I had to deliver application which provides an user interface for building of all sorts of interactive web advertisements. As a result user had to get four lines of JS code which had to be placed at any part of web page and automatically be expand when user visit this page. It was able to track customer’s interaction and show metrics to ad creator."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+name: 'Test'
+on: 
+  pull_request:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Install
+      run: npm ci
+
+    - name: Build
+      run: npm run build
+
+    - name: Test
+      run: npm run snapshots
+      env: 
+        PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}

@@ -1,3 +1,4 @@
+const fs = require("fs");
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -5,6 +6,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin")
 const autoprefixer = require("autoprefixer");
 
+const dataContent = fs.readFileSync("./data.json");
+const data = JSON.parse(dataContent);
 const isDevelopment = process.env.NODE_ENV !== "production";
 
 module.exports = {
@@ -22,7 +25,7 @@ module.exports = {
   },
   module: {
     rules: [
-      { test: /\.html$/, loader: "html-loader" },
+      { test: /\.handlebars$/, loader: "handlebars-loader" },
       {
         test: /\.(scss|css)$/,
         use: [
@@ -52,6 +55,41 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.(jpg|png|gif)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'static/',
+              useRelativePath: true,
+            }
+          },
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              mozjpeg: {
+                progressive: true,
+                quality: 65
+              },
+              optipng: {
+                enabled: true,
+              },
+              pngquant: {
+                quality: '65-90',
+                speed: 4
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              webp: {
+                quality: 75
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -66,19 +104,14 @@ module.exports = {
       filename: "[name]-styles.css",
       chunkFilename: "[id].css"
     }),
-
     new HtmlWebpackPlugin({
-      template: './src/index.ejs',
-      templateParameters: {
-        title: 'AlexBeznos CV',
-        name: 'Alex',
-      },
+      template: './src/index.handlebars',
+      templateParameters: data,
       minify: !isDevelopment && {
         html5: true,
         collapseWhitespace: true,
         caseSensitive: true,
         removeComments: true,
-        removeEmptyElements: true
       },
     })
   ]

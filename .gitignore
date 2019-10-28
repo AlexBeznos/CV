@@ -4,3 +4,6 @@ dist
 # Ignore vim's swap files
 .*.sw?
 
+# Ignore mac stuff
+.DS_Store
+
