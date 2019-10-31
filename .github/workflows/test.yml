@@ -16,10 +16,8 @@ jobs:
         npm ci
         npm run build
         npm run snapshots
-        echo '${{ github.sha }}'
       env: 
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-        PERCY_COMMIT: ${{ github.sha }}
         PERCY_BRANCH: ${{ github.ref }}
         PERCY_TARGET_BRANCH: ${{ github.base_ref }}
         PERCY_TARGET_COMMIT: ${{ github.head_ref }}
