@@ -4,12 +4,6 @@ Small setup for managing resume as a single data file. To make it happen, it wer
 
 ## Left todo:
 
-- [ ] Add `percy` snapshot test.
-
-- [ ] Add basic integration test.
-
 - [ ] Add resume picture.
 
-- [ ] Setup actions for running tests.
-
-- [ ] Setup continues delivery to Github Pages.
+- [ ] Fix issue with font awesome.
