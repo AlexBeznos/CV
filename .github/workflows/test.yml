@@ -1,5 +1,4 @@
 name: 'Lint | Test'
-description: 'Lint and test for pull requests'
 on: 
   pull_request:
   push:
