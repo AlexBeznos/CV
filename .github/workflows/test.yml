@@ -8,9 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: ESLint checks
-      uses: gimenete/eslint-action@1.0
-
     - name: Test
       run: |
         npm ci
