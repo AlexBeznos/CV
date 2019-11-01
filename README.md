@@ -4,6 +4,4 @@ Small setup for managing resume as a single data file. To make it happen, it wer
 
 ## Left todo:
 
-- [ ] Add resume picture.
-
 - [ ] Fix issue with font awesome.
