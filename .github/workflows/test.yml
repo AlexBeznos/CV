@@ -18,5 +18,3 @@ jobs:
         npm run snapshots
       env: 
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-        PERCY_BRANCH: ${{ github.ref }}
-        PERCY_TARGET_BRANCH: ${{ github.base_ref }}
