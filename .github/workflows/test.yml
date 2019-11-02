@@ -11,10 +11,13 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: Install
+      run: npm ci
+
+    - name: Build
+      run: npm run build
+
     - name: Test
-      run: |
-        npm ci
-        npm run build
-        npm run snapshots
+      run: npm run snapshots
       env: 
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
