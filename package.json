@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "@percy/script": "^1.0.2",
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.7.1",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
