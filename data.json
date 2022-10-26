@@ -6,7 +6,8 @@
   "contacts": {
     "phone": "+972536528844",
     "email": "beznosa@yahoo.com",
-    "github": "github.com/AlexBeznos",
+    "github_new": "github.com/AlexBeznoss",
+    "github_old": "github.com/AlexBeznos",
     "linkedin": "linkedin.com/in/alex-beznos-255011a8"
   },
   "education": [
@@ -45,7 +46,7 @@
       "role": "Senior Ruby developer",
       "from": "Nov 2018",
       "till": "Oct 2022",
-      "description": "As a key developer, I worked on building a SaaS platform from scratch. <a href=\"https://formli.app\" target=\"_blank\">Formli</a> is a engagement + data capturing platform which provides tools for building forms and data analysis. I participated in the development of all parts of the platform. Introduced a couple of microservices on Golang/Elixir and made a few gems and npm packages to improve the overall development experience."
+      "description": "As a key developer, I worked on building a SaaS platform from scratch. <a href=\"https://formli.com\" target=\"_blank\">Formli</a> is a engagement + data capturing platform which provides tools for building forms and data analysis. I participated in the development of all parts of the platform. Introduced a couple of microservices on Golang/Elixir and made a few gems and npm packages to improve the overall development experience."
     },
     {
       "company": "<a href=\"https://www.roundforest.com/\" target=\"_blank\">Roundforest</a> feat <a href=\"http://sdsolutions.tech/\" target=\"_blank\">SD Solutions</a>",
