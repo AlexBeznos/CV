@@ -37,28 +37,28 @@
   "jobs": [
     {
       "company": "<a href=\"https://humanagency.com/\" target=\"_blank\">HumanAgency</a>",
-      "role": "Senior Ruby developer",
+      "role": "Senior Software Engineer",
       "from": "Nov 2018",
-      "till": "Oct 2022",
-      "description": "As a key developer, I worked on building a SaaS platform from scratch. <a href=\"https://formli.com\" target=\"_blank\">Formli</a> is a engagement + data capturing platform which provides tools for building forms and data analysis. I participated in the development of all parts of the platform. Introduced a couple of microservices on Golang/Elixir and made a few gems and npm packages to improve the overall development experience."
+      "till": "Present",
+      "description": "In my previous role as a key developer, I demonstrated my expertise in building complex SaaS platforms from scratch. Specifically, I was a key contributor to the development of <a href=\"https://formli.com\" target=\"_blank\">Formli</a>, an innovative engagement and data capturing platform that enables users to build customized forms and perform advanced data analysis easily. My contributions included designing and implementing several microservices using Golang and Elixir, as well as creating several gems and npm packages to enhance team productivity."
     },
     {
       "company": "<a href=\"https://www.roundforest.com/\" target=\"_blank\">Roundforest</a> feat <a href=\"http://sdsolutions.tech/\" target=\"_blank\">SD Solutions</a>",
       "role": "Team Lead",
       "from": "Sep 2017",
       "till": "Nov 2018",
-      "description": "I participated in the development of two apps. The first one was CMS, CRM system which had to predict popular topics and propose them to writers who had to create articles for different content platforms. But after some time priorities were changed and the whole team was moved to the creation of the app which had to collect data from different hotel proposal providers, rank it and show it to users depending on their needs. I was responsible for app development including team management, development process, and meeting deadlines."
+      "description": "Initially, I was a key contributor to designing a sophisticated CMS and CRM system that utilized predictive analytics to suggest popular topics to writers creating articles for various content platforms. However, due to shifting priorities, I was later assigned to lead the development of another application that collected data from multiple hotel proposal providers, ranked it based on user needs, and presented it in a user-friendly interface. As the lead developer, I was responsible for managing the development team, overseeing the development process, and ensuring that all project milestones were met on time. "
     },
     {
       "company": "Enbro NV feat <a href=\"https://elixirator.com/\" target=\"_blank\">Elixirator</a>",
-      "role": "Ruby developer",
+      "role": "Full Stack Ruby developer",
       "from": "Sep 2016",
       "till": "Aug 2017",
       "description": "We worked on CRM system for the creation, signing, and preparing contracts between gas/electricity companies and end customers. The main app was developed with Hanami on the backend and React on the frontend. As a part of development, we had to move logic from the legacy app(written on Ruby on Rails) to the new Hanami app."
     },
     {
       "company": "<a href=\"http://www.globallogic.com/ua\" target=\"_blank\">Global Logic</a>",
-      "role": "Ruby developer",
+      "role": "Ruby on Rails developer",
       "from": "Jan 2015",
       "till": "Sep 2016",
       "description": "As a part of the team, I had to deliver an application that provides a user interface for building all sorts of interactive web advertisements. As a result, a user had to get four lines of JS code which had to be placed at any part of the web page and automatically expand when user visits this page. It was able to track customer interaction and show metrics to the ad creator."
